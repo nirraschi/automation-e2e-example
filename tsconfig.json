@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": ["@types/node"],
+    "outDir": "dist"
+    
+  },
+  "include": ["bdd/**/*.ts", "playwright-tests/**/*.ts"]
+}
