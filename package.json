@@ -12,8 +12,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx playwright test",
-    "bdd": "cucumber-js --require-module ts-node/register --require ./bdd/steps/**/*.ts ./bdd/features/**/*.feature"
-  },
+    "bdd": "npx cucumber-js --require-module ts-node/register --require bdd/steps/**/*.ts bdd/features/**/*.feature"  },
   "keywords": [],
   "author": "",
   "license": "ISC",
